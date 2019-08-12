@@ -1,11 +1,11 @@
 .course-card {
 	position: relative;
-	width: 350px;
-	height:250px;
 	margin: 5px;
 	padding: 0 10px;
 	border: 1px solid #d7d7d7;
 	border-radius: 10px;
+	width: 350px;
+	height:250px;
 	background-color: #ffffff;
 }
 
@@ -14,8 +14,8 @@
 }
 
 .course-card__inactive {
-	max-width: 138px;
 	padding: 5px 15px 5px 28px;
+	max-width: 138px;
 	background-color: #dd1515;
 	color: #ffffff;
 	font-weight: 700;
