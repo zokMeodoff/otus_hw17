@@ -6,10 +6,8 @@ class Footer extends Component {
     render() {
         return (
             <footer className="footer">
-                    <span>
-                        &copy; 2019 OTUS Fake Site
-                    </span>
-			</footer>
+		&copy; 2019 OTUS Fake Site
+		</footer>
         )
     }
 }
