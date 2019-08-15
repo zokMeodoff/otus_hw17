@@ -4,10 +4,6 @@ import './CourseCard.css'
 class CourseCard extends Component {
     render() {
         const {course} = this.props;
-        const formatter = new Intl.DateTimeFormat('ru', {
-            day: 'numeric',
-            month: 'long',
-        });
         return (
             <div className="course-card">
 				<h1 className="course-card__header">{course.name}</h1>
